@@ -10,17 +10,11 @@
   <email>willfitch@php.net</email>
   <active>yes</active>
  </lead>
- <lead>
-  <name>Alexander Veremyev</name>
-  <user>cawa</user>
-  <email>cawa@php.net</email>
-  <active>no</active>
- </lead>
- <date>2012-10-19</date>
- <time>09:00:00</time>
+ <date>2014-10-31</date>
+ <time>07:00:00</time>
  <version>
-  <release>2.0</release>
-  <api>2.0</api>
+  <release>2.0.1</release>
+  <api>2.0.1</api>
  </version>
  <stability>
   <release>beta</release>
@@ -32,6 +26,7 @@
  - Deprecated bitset_* functions
  - Fixed tests with incorrect EXPECTs
  - Removed support for PHP versions less than 5.3
+ - Fixed issue (Github #7) BitSet::set(0) should set the first bit only (credits @aurora) 
  </notes>
  <contents>
   <dir name="/">
@@ -83,6 +78,7 @@
    <file name="php_bitset.h" role="src" md5sum="7610460d0d5700ab7b714f26f85f4f12" />
    <file name="README" role="doc" md5sum="d06f0d2d6c2b2feab10f0840eeec062a" />
    <file name="TODO" role="doc" md5sum="246a4eae1822c2a878a7ff652ca267d3" />
+   <file name="LICENSE" role="doc" md5sum="52dd90569008fee5bcdbb22d945b1108" />
   </dir>
  </contents>
  <dependencies>
